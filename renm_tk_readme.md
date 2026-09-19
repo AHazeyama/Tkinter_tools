@@ -1,11 +1,15 @@
 <p align="left">
-  <img src="./assets/Title_dark.png#gh-dark-mode-only" alt="renm banner dark">
-  <img src="./assets/Title_light.png#gh-light-mode-only" alt="renm banner light">
+  <img src="./assets/renm_tk_title_dark.png#gh-dark-mode-only" alt="renm banner dark">
+  <img src="./assets/renm_tk_title_light.png#gh-light-mode-only" alt="renm banner light">
 </p>
+
+<!--
+  <img src="./assets/renm_tk_title_light.png">
+-->
 
 # batch renaming tool for files and directories [renm_tk]
 <p align="left">
-  <img src="./assets/renm_tk.png" width="720">
+  <img src="./assets/prtsc/renm_tk_win.png" width="560">
 </p>
 
 ## Overview
@@ -96,7 +100,7 @@
 - デスクトップユーティリティに適した構成
 
 ## Build (for developers) 
-　![](./assets/env/M_SHELL_BASH-PWSH.png)  
+　<img src="./assets/env/M_SHELL_BASH-PWSH.png" height="14">  
 ```pwsh
 pyinstaller `  
   --noconsole `  
