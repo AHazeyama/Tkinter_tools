@@ -17,8 +17,8 @@
 |<img src="./assets/env/M_click.png" height="14">|マウスクリック|右 <img src="./assets/env/M_click.png" height="14"> : 右クリック、 W <img src="./assets/env/M_click.png" height="14"> : ダブルクリック|  
 |<img src="./assets/env/M_next.png" height="14">|次の動作|右側の動作を続けて行う|  
 |<img src="./assets/env/M_term.png" height="14">|ターミナル||  
-|<img src="./assets/env/M_copy.png" height="14">|コピー|<img src="./assets/env/M_click.png" height="14"> でコピー or コピー可能文字列表示|  
-|<img src="./assets/env/M_download.png" height="14">|ダウンロード||  
+|<img src="./assets/env/M_copy.png" height="14">|コピー|<img src="./assets/env/M_click.png" height="14"> でコピー or コピー可能文字列表示<br>　表示文字列右上の <img src="./assets/env/M_git-copy.png" height="14"> でコピー|  
+|<img src="./assets/env/M_download.png" height="14">|ダウンロード|<img src="./assets/env/M_caution.png" height="14"> 必要に応じて|  
 |<img src="./assets/env/M_info.png" height="14">|インフォメーション|マウスカーソルが <img src="./assets/env/M_info.png" height="14"> に変化した場合、<img src="./assets/env/M_click.png" height="14"> で詳細表示|  
 |<img src="./assets/env/M_text.png" height="12">|テキスト|･･･ は文字列|
 |<img src="./assets/env/M_button.png" height="12">|ボタン|･･･ はボタン名|  
@@ -97,7 +97,8 @@ pyinstaller \
 
 ### アイコンファイル作成
 　pyinstallerで付加される標準アイコンは <img src="./assets/env/M_TOOL_pyinstaller-default-icon.png" height="24"> です。  
-　固有アイコンを使用する場合は 256,128,96,64,48,32,16Pixel の各解像度の画像を1つの`.ico`ファイルに作成します (128,64Pixelは他のサイズで代用可能なため、`.exe`容量を削減する場合は省略可)。  
+　固有アイコンを使用する場合は 256,128,96,64,48,32,16Pixel の各解像度の画像を1つの`.ico`ファイルに作成します  
+　　(128,64Pixelは他のサイズで代用可能なため、`.exe`容量を削減する場合は省略可)。  
 > [!tip]  
 > `.ico` 作成 / 編集ツール  
 > 　<img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_TOOL_greenfish.png" height="20">](https://greenfishsoftware.org/)
