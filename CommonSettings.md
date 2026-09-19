@@ -109,11 +109,11 @@ pyinstaller \
 
 ### Version ファイル作成  
 　Pyinstaller で使用されるVersionをファイルで指定します。  
-　<img src="./assets/env/M_file.png" height="14"> 名: `APP.version`  
 
 <details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">  
+　<img src="./assets/env/M_file.png" height="14"> 名: `APP.version`  
 
 　[<img src="./assets/env/M_FILE_version.png" height="256" align="top">](./assets/env/M_FILE_version.png)
 </summary>  
