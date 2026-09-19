@@ -44,10 +44,10 @@
 
 ## 単体起動アプリケーション(.exe)作成
 ### アプリケーション作成ツール  
-　<img src="./assets/env/M_TOOL_pyinstaller.png" height="20">  
+　<img src="./assets/env/M_TOOL_pyinstaller.png" height="16">  
 　　[<img src="./assets/env/M_link.png" height="14"> HomePage](https://pyinstaller.org/)　[<img src="./assets/env/M_link.png" height="14"> Manual](https://pyinstaller.org/en/stable/)  
 
-<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
+　　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 <details>                                             <!-- pyinstaller PowerShell -->  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">  
@@ -67,7 +67,7 @@ pyinstaller `
 
 　<img src="./assets/env/M_caution.png" height="14"> `.exe` は <img src="./assets/env/M_folder.png" height="14"> : ./dist に作成されます。
 
-<img src="./assets/env/M_SHELL_BASH.png" height="12">  
+　　<img src="./assets/env/M_SHELL_BASH.png" height="12">  
 <details>                                             <!-- pyinstaller PowerShell -->  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">  
@@ -164,12 +164,6 @@ VSVersionInfo(
 |Minor version|機能変更、小規模追加|  
 |Bug fixes|バグ対策|  
 |build no|機能変更を伴わない修正、内部的なバグ対策|  
-
-
-<br>  
-<br>  
-<br>  
-<br>  
 
 # Download the Release 
 　各アプリケーションの単体起動版(.exe)は下記リンクよりダウンロードできます。  

@@ -100,7 +100,15 @@
 - デスクトップユーティリティに適した構成
 
 ## Build (for developers) 
-　<img src="./assets/env/M_SHELL_BASH-PWSH.png" height="14">  
+
+<details>  
+<summary>
+　<img src="./assets/env/M_copy.png" height="14">
+　<img src="./assets/env/M_SHELL_PWSH.png" height="14">  
+
+　[<img src="./assets/cmd/M_CMD_pyinstaller-renm_tk.png">](./assets/env/M_FILE_version.png)
+</summary>  
+  
 ```pwsh
 pyinstaller `  
   --noconsole `  
@@ -110,21 +118,10 @@ pyinstaller `
   --version-file=renm_tk.version `  
   renm_tk.py  
 ```  
-
-## Documentation  
-　**Doxygen** により生成できます。  
-　⇒ ソースコードの可読性向上と構造理解を目的としています。  
-　![](./assets/env/M_SHELL_BASH.png)  
-　```
-doxygen Doxyfile
-　```  
-　生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
-　```  
-🗁 docs/html/index.html  
-　```
+</details>  
 
 ## Download
-　🔗 https://github.com/AHazeyama/public/releases/latest  
+　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)
 
 ## License
 　TBD
