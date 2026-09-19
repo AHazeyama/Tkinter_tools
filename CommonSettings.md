@@ -118,7 +118,7 @@ pyinstaller \
 　[<img src="./assets/env/M_FILE_version.png" height="256" align="top">](./assets/env/M_FILE_version.png)
 </summary>  
   
-```  
+```pwsh  
 VSVersionInfo(
   ffi=FixedFileInfo(
 # Windowsが内部的に扱う数値版
