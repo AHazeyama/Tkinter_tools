@@ -124,7 +124,7 @@ pyinstaller `
 
 　　**.exe** 出力 <img src="./assets/env/M_folder.png" height="14"> :　. / dist /  
 
-## Download
+## Download the Release 
 　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)
 
 ## License
