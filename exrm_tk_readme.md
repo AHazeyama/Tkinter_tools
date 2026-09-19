@@ -2,8 +2,9 @@
   <img src="./assets/exrm_tk_title_dark.png#gh-dark-mode-only" alt="banner dark">  
   <img src="./assets/exrm_tk_title_light.png#gh-light-mode-only" alt="banner light">  
 </p>  
+
 <!--  
-  <img src="./assets/exrm_tk_title_light.png#gh-light-mode-only" alt="banner light">  
+  <img src="./assets/exrm_tk_title_light.png">  
 -->  
 
 # exclusive removal tool [exrm_tk]  

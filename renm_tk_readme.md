@@ -99,14 +99,16 @@
 - 状態表示やメッセージ表示を組み込みやすい
 - デスクトップユーティリティに適した構成
 
-## Build (for developers) 
-
+## Build (for developers)   
+### 　Python 開発環境共通設定  
+　　Pythonを使用した開発に関する共通設定を記載しています。  
+　　[<img src="./assets/env/M_link.png" height="14"> **Common settings for the development environment**](https://github.com/AHazeyama/Tkinter_tools/blob/main/CommonSettings.md)
 
 ### 　renm_tk **(.exe)** 作成コマンド  
 <details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">
-　<img src="./assets/env/M_SHELL_PWSH.png" height="14">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 
 　　　　[<img src="./assets/cmd/M_CMD_pyinstaller-hvgc_tk.png">](./assets/env/M_FILE_version.png)
 </summary>  

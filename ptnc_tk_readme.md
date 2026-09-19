@@ -2,6 +2,7 @@
     <img src="./assets/ptnc_tk_title_dark.png#gh-dark-mode-only" alt="banner dark">
     <img src="./assets/ptnc_tk_title_light.png#gh-light-mode-only" alt="banner light">
 </p>
+
 <!--
     <img src="./assets/ptnc_tk_title_light.png">  
 -->
@@ -72,7 +73,12 @@
 - Undo を実装し、操作リスクの軽減を意識  
 - 処理メッセージ表示により、何が起きているかを分かりやすく可視化  
 
-## Build (for developers) 
+## Build (for developers)   
+### 　Python 開発環境共通設定  
+　　Pythonを使用した開発に関する共通設定を記載しています。  
+　　[<img src="./assets/env/M_link.png" height="14"> **Common settings for the development environment**](https://github.com/AHazeyama/Tkinter_tools/blob/main/CommonSettings.md)
+
+### 　ptnc_tk **(.exe)** 作成コマンド  
 <details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">

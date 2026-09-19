@@ -1,0 +1,44 @@
+# ===== Visual Studio / C# =====
+bin/
+obj/
+*.user
+*.exe
+*.dll
+test1st/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+venv/
+*_env/
+dist/
+build/
+test1st/
+
+# ===== Tkinter exe類 =====
+bkup/
+dist/
+*.exe
+
+# ===== OS =====
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ===== その他 =====
+*.log
+.gitignore
+docs_bk/
+draft/
+
+# === Work documents
+*_memo.txt
+*.xlsx
+*.xlsm
+*.swp
+*.swo
+*.bk
+*.bak
+*.ini
+*.mem
+*.bk

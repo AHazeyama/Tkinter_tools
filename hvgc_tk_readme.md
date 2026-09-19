@@ -1,9 +1,10 @@
-  <p align="left">  
+<p align="left">  
     <img src="./assets/hvgc_tk_title_dark.png#gh-dark-mode-only" alt="banner dark">  
     <img src="./assets/hvgc_tk_title_light.png#gh-light-mode-only" alt="banner light">  
 </p>  
+
 <!--  
-  <img src="./assets/hvgc_tk_title_light.png">  
+<img src="./assets/hvgc_tk_title_light.png">  
 -->  
   
 # hash value generation & comparison tool [Tkinter]  
@@ -12,63 +13,70 @@
 </p>  
   
 ## Overview  
-　位取り記数法 (**2,8,10,16進数**) 変換を行うツールです。  
-　2進数10桁(Excel上限)を超える数値を扱う事が出来ます。  
-　単位区切り(SI接頭語)","を挿入する事が出来ます。  
-  
+　ファイルの整合性確認（**Checksum検証**）を手作業で行う際の手間とミスを削減するために開発したツールです。  
+　複数のハッシュアルゴリズムに対応し、生成結果と期待値の比較をワンステップで実行可能です。  
+　業務における検証作業の効率化およびヒューマンエラー防止を目的としています。
+
 ## Purpose  
 - checksum検証の容易化  
 - 製品出荷時の補償作業(SUM値算出)容易化  
   
 ## Features  
-- 位取り記数法 (**2,8,10,16進数**) 変換  
-- 負数(2進数では2の補数表現)に対応  
-- 桁区切り"**,**"の挿入  
-- 2進数の出力桁数を指定可能(先頭"0"詰め)  
-- シンプルなUIによる直感的操作  
-- エラーハンドリング（未選択・不正入力）  
-- メッセージ表示による操作ガイド  
-  
+- ファイルからハッシュ値を生成
+- 期待値との比較（**Match** / **Discrepancy** 表示）
+- ｢**Select**｣による選択、または Drag & Dropによるチェック対象の転送（Upload）
+- 複数アルゴリズム対応  
+　**MD5** / **SHA-1** / **SHA3-256** / **SHA-256** / **SHA-512** / **BLAKE2**
+- クリップボードから期待値を貼り付け（Paste）
+- シンプルなUIによる直感的操作
+- エラーハンドリング（未選択・不正入力）
+- メッセージ表示による操作ガイド
+
 ## Usage  
-1. 入力値 (**Binary** / **Octal** /  **Decimal** / **Hex**) をそれぞれに対応した欄に入力  
-2. ｢**Conversion**｣をクリック  
-3. 必要なら、各"value"に表示された数値の｢Copy｣をクリック  
-  
+1. 「**Select**」で対象ファイルを選択  
+2. ハッシュアルゴリズムを選択  
+3. 期待値を貼り付け（任意）  
+4. 「**Check**」をクリック  
+
 ## Use Case  
-- 数値を各位取り記法の数値へ変換  
-(2進数はExcel上限以上の桁に対応)  
-- 桁区切り","の付加  
-(Windows｢電卓｣では桁区切りがスペース)  
-  
+- ダウンロードファイルの整合性確認
+- 配布物の改ざん検知（内容保証）
+- 検証作業の自動化前段階としての利用
+
 ## UI Components  
-### Input items  
->| Item | Description |  
->|:--|:--|  
->|Binary value|2進数入力欄 兼 2進数変換時の結果表示欄|  
->|Octal value|8進数入力欄 兼 8進数変換時の結果表示欄|  
->|Decimal value|10進数入力欄 兼 10進数変換時の結果表示欄|  
->|Hexadecimal value|16進数入力欄 16進数変換時の結果表示欄|  
->|Binary output digit|2進数変換結果の出力桁数指定欄|  
->|☑ Binary digit division|2進数変換結果の桁区切り","出力指定|  
-### Buttons  
+### Display content
+>| Item | Description | I/O |
+>|:--|:--|:--:|  
+>|Check subject |Hash生成対象ファイル|In|  
+>|Hash Expectation |Hash期待値|In|  
+>|Generated Hash |生成Hash Key|Out|  
+>|Messages and tutorials |処理メッセージ及び操作方法|Out|  
+### Buttons and Checkboxes
 >| Button | Description |  
 >|:--|:--|  
->|Copy|左欄の表示値コピー|  
->|Convert|変換(2進数⇒10進数、10進数⇒2進数 共用)|  
->|Clear|全入力値の消去|  
->|Exit|ツールの終了|  
->|Help|ヘルプメッセージボックスの表示|  
-  
+>|Select|Hash生成対象ファイル選択|  
+>|Paste|期待値ペースト(クリップボード内容をペースト)|  
+>|Copy|生成Hash Keyをコピー|  
+>|⦿ Hash Algorithm|Hash生成アルゴリズム<br>　MD5 / SHA-1 / SHA3-256 / SHA-256 / SHA-512 / BLAKE2 から選択|  
+>|Check|Hash生成及び期待値比較|  
+>|Clear|入力情報消去|  
+>|Exit|ツール終了|  
+
 ## Tech Stack  
 - Python 3.x  
 - Tkinter  
   
 ## Design / Implementation Points  
-- 各表記法への一括変換  
-- 各表記法への一括変換  
+- ローカル環境での検証ツール
+- 社内向けAPIとしての利用
 - GUI から扱えるようにして、CLI に不慣れな利用者でも操作可能  
-  
+
 ## Build (for developers)   
+### 　Python 開発環境共通設定  
+　　Pythonを使用した開発に関する共通設定を記載しています。  
+　　[<img src="./assets/env/M_link.png" height="14"> **Common settings for the development environment**](https://github.com/AHazeyama/Tkinter_tools/blob/main/CommonSettings.md)
+
+### 　hvgc_tk **(.exe)** 作成コマンド  
 <details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">
