@@ -14,8 +14,8 @@
 
 |Item|Content|  
 |:--|:--|  
-|開発OS|<img src="./assets/env/M_OS_Win11.png" height="13"><br><img src="./assets/env/M_OS_Ubuntu.png" height="13">|  
-|言語|<img src="./assets/env/M_LANG_Python.png" height="20">|  
+|OS|<img src="./assets/env/M_OS_Win11.png" height="13"><br><img src="./assets/env/M_OS_Ubuntu.png" height="13">|  
+|Language|<img src="./assets/env/M_LANG_Python.png" height="20">|  
 |Library (GUI)|**Tkinter**|  
 |Shell | <img src="./assets/env/M_SHELL_BASH.png" height="12">　**/**　<img src="./assets/env/M_SHELL_PWSH.png" height="12">
 |Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="22" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="22" align="top" alt="VS Code"> |  
@@ -41,9 +41,5 @@
 - 状態表示やメッセージ表示を組み込みやすい
 - デスクトップユーティリティに適した構成
 
-
-
-　
-# Download the Release 
-　各アプリケーションの単体起動版(.exe)は下記リンクよりダウンロードできます。  
-　　<img src="./assets/env/M_link.png" height="14"> https://github.com/AHazeyama/public/releases/latest
+## Download the Release 
+　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)

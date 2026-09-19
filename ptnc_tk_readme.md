@@ -73,7 +73,13 @@
 - 処理メッセージ表示により、何が起きているかを分かりやすく可視化  
 
 ## Build (for developers) 
-　<img src="./assets/env/M_SHELL_BASH-PWSH.png" height="12">  
+<details>  
+<summary>
+　<img src="./assets/env/M_copy.png" height="14">
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
+
+　　　　[<img src="./assets/cmd/M_CMD_pyinstaller-ptnc_tk.png">](./assets/env/M_FILE_version.png)
+</summary>  
 ```pwsh
 pyinstaller `  
   --noconsole `  
@@ -84,9 +90,12 @@ pyinstaller `
   ptnc_tk.py  
 ```  
 
-## Download  
-　各アプリケーションの単体起動版(.exe)は下記リンクよりダウンロードできます。  
-　🔗 https://github.com/AHazeyama/public/releases/latest  
+</details>  
 
+　　**.exe** 出力 <img src="./assets/env/M_folder.png" height="14"> :　. / dist /  
+
+## Download the Release 
+　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)
+  
 ## License  
 　TBD  

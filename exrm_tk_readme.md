@@ -91,7 +91,7 @@
 <details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">
-　<img src="./assets/env/M_SHELL_PWSH.png" height="14">  
+　<img src="./assets/env/M_SHELL_PWSH.png" height="12">  
 
 　　　　[<img src="./assets/cmd/M_CMD_pyinstaller-exrm_tk.png">](./assets/env/M_FILE_version.png)
 </summary>  
