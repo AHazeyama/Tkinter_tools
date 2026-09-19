@@ -101,12 +101,14 @@
 
 ## Build (for developers) 
 
+
+### 　renm_tk **(.exe)** 作成コマンド  
 <details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">
 　<img src="./assets/env/M_SHELL_PWSH.png" height="14">  
 
-　[<img src="./assets/cmd/M_CMD_pyinstaller-renm_tk.png">](./assets/env/M_FILE_version.png)
+　　　　[<img src="./assets/cmd/M_CMD_pyinstaller-renm_tk.png">](./assets/env/M_FILE_version.png)
 </summary>  
   
 ```pwsh
@@ -119,6 +121,8 @@ pyinstaller `
   renm_tk.py  
 ```  
 </details>  
+
+　　**.exe** 出力 <img src="./assets/env/M_folder.png" height="14"> :　. / dist /  
 
 ## Download
 　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)

@@ -7,7 +7,7 @@
 -->  
 
 # exclusive removal tool [exrm_tk]  
-[<img src="./assets/prtsc/exrm_tk_win.png" width="512">](./assets/prtsc/exrm_tk_win.png)  
+[<img src="./assets/prtsc/exrm_tk_win.png" width="560">](./assets/prtsc/exrm_tk_win.png)  
 
 ## Overview  
 　指定した文字列を **含まない** ファイル / ディレクトリを一括削除するためのデスクトップツールです。  
@@ -83,12 +83,34 @@
 - 処理メッセージ表示により、何が起きているかを分かりやすく可視化  
   
 ## Build (for developers)   
-> [<img src="./assets/env/M_link.png" height="14">　Tkinter 単体起動アプリケーション開発](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/renm_ps6_Vim.md)
+### 　Python 開発環境共通設定  
+　　Pythonを使用した開発に関する共通設定を記載しています。  
+　　[<img src="./assets/env/M_link.png" height="14"> **Common settings for the development environment**](https://github.com/AHazeyama/Tkinter_tools/blob/main/CommonSettings.md)
 
+### 　exrm_tk **(.exe)** 作成コマンド  
+<details>  
+<summary>
+　<img src="./assets/env/M_copy.png" height="14">
+　<img src="./assets/env/M_SHELL_PWSH.png" height="14">  
 
-## Download  
-　各アプリケーションの単体起動版(.exe)は下記リンクよりダウンロードできます。  
-　🔗 https://github.com/AHazeyama/public/releases/latest  
+　　　　[<img src="./assets/cmd/M_CMD_pyinstaller-exrm_tk.png">](./assets/env/M_FILE_version.png)
+</summary>  
+  
+```pwsh
+pyinstaller `  
+  --noconsole `  
+  --onefile `  
+  --icon=exrm_tk.ico `  
+  --add-data "exrm_tk.ico;." `  
+  --version-file=exrm_tk.version `  
+  exrm_tk.py  
+```  
+</details>  
+
+　　**.exe** 出力 <img src="./assets/env/M_folder.png" height="14"> :　. / dist /  
+
+## Download
+　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)
   
 ## License  
 　TBD  

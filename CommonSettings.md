@@ -28,19 +28,23 @@
 ## 仮想環境構築
 　Pythonによるアプリケーションの開発は仮想環境(virtualenv)以下で実施する事を推奨します。  
 　<img src="./assets/env/M_SHELL_BASH-PWSH.png" height="12">  
-> [!CAUTION]
+
+> [!caution]
+> Trademarks: Company names, product names, and logos used in documents related to this project are trademarks or registered trademarks of their respective owners. They are cited solely for the purpose of describing the technologies used.
+> 
 > Ubuntu / Debian系のDistributionではパッケージ管理システム(**pip**)がインストールパッケージに含まれていない場合があります。  
 > 予め`python3 --version`コマンドでpipのインストール状態を確認し、必要ならインストールして下さい。  
 > pip Install command : `sudo apt install python3-pip` <img src="./assets/env/M_return.png" height="12">  
 
 仮想環境は下記コマンドで実装し、有効化します。  
-|Item|<img src="./assets/env/M_SHELL_BASH.png" height="12">|<img src="./assets/env/M_SHELL_PWSH.png" height="12">|remarks|  
-|:--|:--|:--|:--|  
-|コマンド抑止の<br>バイパス設定|Set-ExecutionPolicy -Scope Process<br> -ExecutionPolicy Bypass <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|おまじない？|  
-|仮想環境(VE)実装|py -m venv "VE名" <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
-|仮想環境有効化|source VE-DIR/bin/Activate <img src="./assets/env/M_return.png" height="12">|.\VE-DIR\Script\Activate.ps1 <img src="./assets/env/M_return.png" height="12">||
-|パッケージ管理アップデート|pip install -U pip <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
-|拡張機能インストール|pip install 拡張機能 <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|␣ 区切りで<br>複数指定可能|  
+
+|Order|Item|<img src="./assets/env/M_SHELL_BASH.png" height="12">|<img src="./assets/env/M_SHELL_PWSH.png" height="12">|remarks|  
+|:--|:--|:--|:--|:--|  
+|1|コマンド抑止の<br>バイパス設定|Set-ExecutionPolicy -Scope Process<br> -ExecutionPolicy Bypass <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|おまじない？|  
+|2|仮想環境(VE)実装|py -m venv "VE名" <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
+|3|仮想環境有効化|source VE-DIR/bin/Activate <img src="./assets/env/M_return.png" height="12">|.\VE-DIR\Script\Activate.ps1 <img src="./assets/env/M_return.png" height="12">||
+|4|パッケージ管理アップデート|pip install -U pip <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
+|5|拡張機能インストール|pip install 拡張機能 <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|␣ 区切りで<br>複数指定可能|  
 
 ## 単体起動アプリケーション(.exe)作成
 ### アプリケーション作成ツール  
@@ -107,7 +111,7 @@ pyinstaller \
 　Pyinstaller で使用されるVersionをファイルで指定します。  
 　<img src="./assets/env/M_file.png" height="14"> 名: `APP.version`  
 
-<details>                                                           <!-- APP.version -->
+<details>  
 <summary>
 　<img src="./assets/env/M_copy.png" height="14">  
 
@@ -167,4 +171,4 @@ VSVersionInfo(
 
 # Download the Release 
 　各アプリケーションの単体起動版(.exe)は下記リンクよりダウンロードできます。  
-　　<img src="./assets/env/M_link.png" height="14"> https://github.com/AHazeyama/public/releases/latest
+　　[<img src="./assets/env/M_link.png" height="14"> Download Repository](https://github.com/AHazeyama/public/releases/latest)  
