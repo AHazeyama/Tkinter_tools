@@ -168,6 +168,3 @@ VSVersionInfo(
 |Minor version|機能変更、小規模追加|  
 |Bug fixes|バグ対策|  
 |build no|機能変更を伴わない修正、内部的なバグ対策|  
-
-## Download the Release 
-　[<img src="./assets/env/M_link.png" height="14"> Download Repository (GitHub)](https://github.com/AHazeyama/public/releases/latest)
