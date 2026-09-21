@@ -12,19 +12,7 @@
 　各アプリケーションの開発手順で共通の項目を記載しています。
 
 ### Symbol Legend  
-|Item|Content|Remarks|  
-|:--|:--|:--|  
-|<img src="./assets/env/M_win.png" height="14">|デスクトップ||
-|<img src="./assets/env/M_click.png" height="14">|マウスクリック|右 <img src="./assets/env/M_click.png" height="14"> : 右クリック、 W <img src="./assets/env/M_click.png" height="14"> : ダブルクリック|  
-|<img src="./assets/env/M_next.png" height="14">|次の動作|右側の動作を続けて行う|  
-|<img src="./assets/env/M_term.png" height="14">|ターミナル||  
-|<img src="./assets/env/M_copy.png" height="14">|コピー|<img src="./assets/env/M_click.png" height="14"> でコピー or コピー可能文字列表示<br>　表示文字列右上の <img src="./assets/env/M_git-copy.png" height="14"> でコピー|  
-|<img src="./assets/env/M_download.png" height="14">|ダウンロード|<img src="./assets/env/M_caution.png" height="14"> 必要に応じて|  
-|<img src="./assets/env/M_info.png" height="14">|インフォメーション|マウスカーソルが <img src="./assets/env/M_info.png" height="14"> に変化した場合、<img src="./assets/env/M_click.png" height="14"> で詳細表示|  
-|<img src="./assets/env/M_text.png" height="12">|テキスト|･･･ は文字列|
-|<img src="./assets/env/M_button.png" height="12">|ボタン|･･･ はボタン名|  
-|<img src="./assets/env/M_menu.png" height="12">|ウィンドウ/メニュー/フォーム|･･･ はメニュー項目
-|<img src="./assets/env/M_key.png" height="12">|キーボードの Key を押す|･･･ はKey名、 <img src="./assets/env/M_return.png" height="12"> : Enter Key|  
+> [<img src="./assets/env/M_legend.png" width="480">](./assets/env/M_legend.png)  
 
 ## 仮想環境構築
 　Pythonによるアプリケーションの開発は仮想環境(virtualenv)以下で実施する事を推奨します。  

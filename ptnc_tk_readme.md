@@ -52,7 +52,6 @@
 >|Hexadecimal value|16進数値入力 or 16進数変換値表示|  
 >|Binary output digit|2進数表示桁数|  
 >|☑ Binary digit division|2進数桁区切り(4bit)|  
-
 ### Buttons
 >| Button | Description |  
 >|:--|:--|  

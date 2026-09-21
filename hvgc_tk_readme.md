@@ -50,14 +50,14 @@
 >|Check subject |Hash生成対象ファイル|In|  
 >|Hash Expectation |Hash期待値|In|  
 >|Generated Hash |生成Hash Key|Out|  
+>|<img src="./assets/env/M_radiobutton.png" height="12"> Hash Algorithm|Hash生成アルゴリズム<br>　MD5  SHA-1 / SHA3-256 / SHA-256 / SHA-512 / BLAKE2 から選択|  
 >|Messages and tutorials |処理メッセージ及び操作方法|Out|  
-### Buttons and Checkboxes
+### Buttons  
 >| Button | Description |  
 >|:--|:--|  
 >|Select|Hash生成対象ファイル選択|  
 >|Paste|期待値ペースト(クリップボード内容をペースト)|  
 >|Copy|生成Hash Keyをコピー|  
->|⦿ Hash Algorithm|Hash生成アルゴリズム<br>　MD5 / SHA-1 / SHA3-256 / SHA-256 / SHA-512 / BLAKE2 から選択|  
 >|Check|Hash生成及び期待値比較|  
 >|Clear|入力情報消去|  
 >|Exit|ツール終了|  
