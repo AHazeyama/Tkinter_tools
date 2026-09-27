@@ -21,7 +21,7 @@
 |Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="22" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="22" align="top" alt="VS Code"> |  
 
 # Tool Description
-| Item | Description | Platform | Preview |   
+| Item <img src="./assets/env/M_link.png" height="14"> | Description | Platform | Preview |   
 |:--|:--|:--:|:--:|  
 | [renm_tk](./renm_tk_readme.md) | ファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/prtsc/renm_tk.png" width="128">](./assets/prtsc/renm_tk.png)|  
 | [exrm_tk](./exrm_tk_readme.md)| 排他的ファイル/ディレクトリ削除ツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/prtsc/exrm_tk.png" width="128">](./assets/prtsc/exrm_tk.png)|  
@@ -30,8 +30,9 @@
 | [tmct_tk](./tmct_tk_readme.md) | リハビリテーション支援<br>カウントダウンタイマー&カウンター| ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/prtsc/tmct_tk.png" width="64">](./assets/prtsc/tmct_tk.png)|  
 
 > [!NOTE]  
-> Itemのアプリケーション名は詳細ページ(GitHub)へリンクしています。  
-
+> ｢Tool Dexcription **/** Item｣ のアプリ名は詳細ページへリンクしています。  
+> Preview画像をクリックして頂けると、拡大表示します。  
+  
 # Why Tkinter
 　本ツールはPython標準ライブラリのみの構成と動作の軽快性を重視し、Tkinter を採用しています。
 - 動作の軽快感を重視  
