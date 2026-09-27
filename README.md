@@ -30,7 +30,7 @@
 | [tmct_tk](./tmct_tk_readme.md) | リハビリテーション支援<br>カウントダウンタイマー&カウンター| ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/prtsc/tmct_tk.png" width="64">](./assets/prtsc/tmct_tk.png)|  
 
 > [!NOTE]  
-> ｢Tool Dexcription **/** Item｣ のアプリ名は詳細ページへリンクしています。  
+> ｢Tool Description **/** Item｣ のアプリ名は詳細ページへリンクしています。  
 > Preview画像をクリックして頂けると、拡大表示します。  
   
 # Why Tkinter
