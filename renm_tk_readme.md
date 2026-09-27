@@ -9,7 +9,7 @@
 
 # batch renaming tool for files and directories [renm_tk]
 <p align="left">
-  <img src="./assets/prtsc/renm_tk_win.png" width="560">
+  <img src="./assets/prtsc/renm_tk.png" width="560">
 </p>
 
 ## Overview

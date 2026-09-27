@@ -9,7 +9,7 @@
 
 # Clock Timer & Counter [tmct_tk]
 <p align="left">
-  <img src="./assets/prtsc/tmct_tk_win.png" height="384">  
+  <img src="./assets/prtsc/tmct_tk.png" height="384">  
 </p>
 
 ## Overview

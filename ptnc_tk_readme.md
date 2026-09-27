@@ -9,7 +9,7 @@
 
 # positional numeral conversion tool [Tkinter]
 <p align="left">
-  <img src="./assets/prtsc/ptnc_tk_win.png" width="512">
+  <img src="./assets/prtsc/ptnc_tk.png" width="512">
 </p>
 
 ## Overview

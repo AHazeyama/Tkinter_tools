@@ -8,7 +8,7 @@
 -->  
 
 # exclusive removal tool [exrm_tk]  
-[<img src="./assets/prtsc/exrm_tk_win.png" width="560">](./assets/prtsc/exrm_tk_win.png)  
+[<img src="./assets/prtsc/exrm_tk.png" width="560">](./assets/prtsc/exrm_tk_win.png)  
 
 ## Overview  
 　指定した文字列を **含まない** ファイル / ディレクトリを一括削除するためのデスクトップツールです。  

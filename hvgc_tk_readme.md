@@ -9,7 +9,7 @@
   
 # hash value generation & comparison tool [Tkinter]  
 <p align="left">  
-  <img src="./assets/prtsc/hvgc_tk_win.png" width="560">  
+  <img src="./assets/prtsc/hvgc_tk.png" width="560">  
 </p>  
   
 ## Overview  
