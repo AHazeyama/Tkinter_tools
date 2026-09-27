@@ -14,7 +14,7 @@
 
 |Item|Content|  
 |:--|:--|  
-|OS|<img src="./assets/env/M_OS11.png" height="13"><br><img src="./assets/env/M_OS_Ubuntu.png" height="13">|  
+|OS|<img src="./assets/env/M_OS_Win11.png" height="13"><br><img src="./assets/env/M_OS_Ubuntu.png" height="13">|  
 |Language|<img src="./assets/env/M_LANG_Python.png" height="20">|  
 |Library (GUI)|**Tkinter**|  
 |Shell | <img src="./assets/env/M_SHELL_BASH.png" height="12">　**/**　<img src="./assets/env/M_SHELL_PWSH.png" height="12">
