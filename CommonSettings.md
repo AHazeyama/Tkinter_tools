@@ -90,11 +90,12 @@ pyinstaller \
 
 ### アイコンファイル作成
 　pyinstallerで付加される標準アイコンは <img src="./assets/env/M_TOOL_pyinstaller-default-icon.png" height="24"> です。  
-　固有アイコンを使用する場合は 256,128,96,64,48,32,16Pixel の各解像度の画像を1つの`.ico`ファイルに作成します  
-　　(128,64Pixelは他のサイズで代用可能なため、`.exe`容量を削減する場合は省略可)。  
+　固有アイコンを使用する場合は下記解像度を1ファイルに含めた`.ico`ファイルを作成する事。  
+　　256x256, 128x128, 96x96, 64x64, 48x48, 32x32, 16x16 [Pixel]  
+　　(128x128, 64Px64 [Pixel]は他のサイズで代用可能なため、`.exe`容量を削減する場合は省略可)。  
 > [!tip]  
 > `.ico` 作成 / 編集ツール  
-> 　<img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_TOOL_greenfish.png" height="20">](https://greenfishsoftware.org/)
+> 　<img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_TOOL_greenfish.png" height="20">](https://greenfishsoftware.org/)  
 
 ### Version ファイル作成  
 　Pyinstaller で使用されるVersionをファイルで指定します。  
