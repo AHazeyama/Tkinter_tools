@@ -58,7 +58,9 @@ pyinstaller `
 ```  
 </details>  
 
-　<img src="./assets/env/M_caution.png" height="14"> `.exe` は <img src="./assets/env/M_folder.png" height="14"> : ./dist に作成されます。
+　<img src="./assets/env/M_caution.png" height="14"> 上記コマンドでは **アイコン** & **Version** が付加されます。  
+　　下記手順でファイルを用意してください。  
+　　 `.exe` は <img src="./assets/env/M_folder.png" height="14"> : ./dist に作成されます。
 
 　　<img src="./assets/env/M_SHELL_BASH.png" height="12">  
 <details>                                             <!-- pyinstaller PowerShell -->  
@@ -85,7 +87,6 @@ pyinstaller \
 > コマンド接続子が <img src="./assets/env/M_SHELL_PWSH.png" height="12"> と <img src="./assets/env/M_SHELL_BASH.png" height="12"> で異なります。  
 > 　<img src="./assets/env/M_SHELL_PWSH.png" height="12"> : " <img src="./assets/cmd/M_WD_connective-pwsh.png" height="12"> " 、<img src="./assets/env/M_SHELL_BASH.png" height="12"> : " <img src="./assets/cmd/M_WD_connective-bash.png" height="12"> "  
 > 　"--add-data" 中の文字、<img src="./assets/env/M_SHELL_PWSH.png" height="12"> : " , "、<img src="./assets/env/M_SHELL_BASH.png" height="12"> : " . "  
-> <img src="./assets/env/M_FW_PySide6.png" height="32"> の場合は `--collect-all PySide6` を追加する事。
 
 
 ### アイコンファイル作成
@@ -94,7 +95,7 @@ pyinstaller \
 　　256x256, 128x128, 96x96, 64x64, 48x48, 32x32, 16x16 [Pixel]  
 　　(128x128, 64Px64 [Pixel]は他のサイズで代用可能なため、`.exe`容量を削減する場合は省略可)。  
 > [!tip]  
-> `.ico` 作成 / 編集ツール  
+> `.ico` 作成 / 編集ツール (参考)  
 > 　<img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_TOOL_greenfish.png" height="20">](https://greenfishsoftware.org/)  
 
 ### Version ファイル作成  
