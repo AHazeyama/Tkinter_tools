@@ -58,9 +58,8 @@ pyinstaller `
 ```  
 </details>  
 
-　<img src="./assets/env/M_caution.png" height="14"> 上記コマンドでは **アイコン** & **Version** が付加されます。  
-　　　下記手順でファイルを用意してください。  
-　　　 `.exe` は <img src="./assets/env/M_folder.png" height="14"> : ./dist に作成されます。
+　<img src="./assets/env/M_caution.png" height="14"> 上記コマンドでは **アイコン** と **Version** が付加されます。作成方法は下記を参照ください。  
+　　 `.exe` は <img src="./assets/env/M_folder.png" height="14"> :` . / dist ` に作成されます。
 
 　　<img src="./assets/env/M_SHELL_BASH.png" height="12">  
 <details>                                             <!-- pyinstaller PowerShell -->  
@@ -89,7 +88,7 @@ pyinstaller \
 > 　"--add-data" 中の文字、<img src="./assets/env/M_SHELL_PWSH.png" height="12"> : " , "、<img src="./assets/env/M_SHELL_BASH.png" height="12"> : " . "  
 
 
-### アイコンファイル作成
+### アイコンファイル(`.ico`) 作成
 　pyinstallerで付加される標準アイコンは <img src="./assets/env/M_TOOL_pyinstaller-default-icon.png" height="24"> です。  
 　固有アイコンを使用する場合は下記解像度を1ファイルに含めた`.ico`ファイルを作成する事。  
 　　256x256, 128x128, 96x96, 64x64, 48x48, 32x32, 16x16 [Pixel]  
@@ -98,7 +97,7 @@ pyinstaller \
 > `.ico` 作成 / 編集ツール (参考)  
 > 　<img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_TOOL_greenfish.png" height="20">](https://greenfishsoftware.org/)  
 
-### Version ファイル作成  
+### Versionファイル(`.version`) 作成  
 　Pyinstaller で使用されるVersionをファイルで指定します。  
 
 <details>  
