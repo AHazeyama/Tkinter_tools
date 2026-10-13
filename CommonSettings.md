@@ -59,8 +59,8 @@ pyinstaller `
 </details>  
 
 　<img src="./assets/env/M_caution.png" height="14"> 上記コマンドでは **アイコン** & **Version** が付加されます。  
-　　下記手順でファイルを用意してください。  
-　　 `.exe` は <img src="./assets/env/M_folder.png" height="14"> : ./dist に作成されます。
+　　　下記手順でファイルを用意してください。  
+　　　 `.exe` は <img src="./assets/env/M_folder.png" height="14"> : ./dist に作成されます。
 
 　　<img src="./assets/env/M_SHELL_BASH.png" height="12">  
 <details>                                             <!-- pyinstaller PowerShell -->  
