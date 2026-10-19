@@ -29,8 +29,8 @@ VSVersionInfo(
                 StringStruct(u'FileVersion', u'2.0.0.2'),
                 StringStruct(u'InternalName', u'renm'),
                 StringStruct(u'LegalCopyright', u''),
-                StringStruct(u'OriginalFilename', u'renm_ps6.py'),
-                StringStruct(u'ProductName', u'renm_ps6'),
+                StringStruct(u'OriginalFilename', u'renm_tk.py'),
+                StringStruct(u'ProductName', u'renm_tk'),
                 StringStruct(u'ProductVersion', u'2.0.0+2')
               ]
             )
