@@ -10,6 +10,7 @@
 # Jonesy Screen Saver [joss_tk]
 <p align="left">
   <img src="./assets/prtsc/joss_tk.png" width="560">  
+  <img src="./assets/prtsc/joss_tk_sample.png" width="560">  
 </p>
 
 ## Overview
@@ -23,7 +24,7 @@
 * 複数モニターへのランダム表示  
 * 画像が複数モニター間を跨いでしまう現象の防止  
 * 画像追加/削除  
-  固有DIR { <img src="./assets/env/M_folder.png" height="14"> ./scr_images\)へ表示したい画像をコピーする事で表示する画像を変更できます。
+  固有DIR ( <img src="./assets/env/M_folder.png" height="14"> ./scr_images\)へ表示したい画像をコピーする事で表示する画像を変更できます。
 
 ## Usage
 1. 規定DIRへコピー　<img src="./assets/env/M_folder.png" height="14"> C:\windows\system32  
