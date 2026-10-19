@@ -23,12 +23,12 @@
 * 複数モニターへのランダム表示  
 * 画像が複数モニター間を跨いでしまう現象の防止  
 * 画像追加/削除  
-  固有DIR { <img src="./assets/env/M_folder.png" height="14"> ./scr_image\)へ表示したい画像をコピーする事で表示する画像を変更できます。
+  固有DIR { <img src="./assets/env/M_folder.png" height="14"> ./scr_images\)へ表示したい画像をコピーする事で表示する画像を変更できます。
 
 ## Usage
 1. 規定DIRへコピー　<img src="./assets/env/M_folder.png" height="14"> C:\windows\system32  
 　・スクリーンセーバーモジュール (JonesyScreenSaver.scr)  
-　・表示画像格納DIR (scr_image)  
+　・表示画像格納DIR (scr_images)  
 　<img src="./assets/env/M_caution.png" height="14"> <img src="./assets/env/M_folder.png" height="14"> system32へのコピーは管理者権限が必要です。
 2. Windowsの「スクリーンセーバーの設定」を開く  
 3. スクリーンセーバーに「JonesyScreenSaver」を選択して適用  
