@@ -17,11 +17,11 @@
 |OS|<img src="./assets/env/M_OS_Win11.png" height="13"><br><img src="./assets/env/M_OS_Ubuntu.png" height="13">|  
 |Language|<img src="./assets/env/M_LANG_Python.png" height="20">|  
 |Library (GUI)|**Tkinter**|  
-|Shell | <img src="./assets/env/M_SHELL_BASH.png" height="12">　**/**　<img src="./assets/env/M_SHELL_PWSH.png" height="12">
+|Shell | <img src="./assets/env/M_SHELL_PWSH.png" height="12"> **/** <img src="./assets/env/M_SHELL_BASH.png" height="12"> |  
 |Editor | <img src="./assets/env/M_EDT_Vim-icon.png" height="22" align="top" alt="Vim">　**/**　<img src="./assets/env/M_EDT_VSCode-banner.png" height="22" align="top" alt="VS Code"> |  
 
 # Tool Description
-| Item <img src="./assets/env/M_link.png" height="14"> | Description | Platform | Preview |   
+| Item <img src="./assets/env/M_link.png" height="14"> | Description | Platform | Preview |  
 |:--|:--|:--:|:--:|  
 | [renm_tk](./renm_tk_readme.md) | ファイル一括リネームツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/prtsc/renm_tk.png" width="128">](./assets/prtsc/renm_tk.png)|  
 | [exrm_tk](./exrm_tk_readme.md)| 排他的ファイル/ディレクトリ削除ツール | ![](assets/env/M_ICO_W-L.png) | [<img src="./assets/prtsc/exrm_tk.png" width="128">](./assets/prtsc/exrm_tk.png)|  
@@ -40,6 +40,7 @@
 - 標準ライブラリ使用による開発環境の構築容易化  
 - 単体起動(.exe)化した場合のアプリケーションサイズの低減  
 - パーツの共通化によるGUIの統一  
+　<img src="./assets/env/M_caution.png" height="14"> ボタン等の色設定を"tk_colors.py"で一括指定しています。コード利用時は <img src="./assets/env/M_download.png" height="14"> してください。  
 - 状態表示やメッセージ表示を組み込みやすい
 - デスクトップユーティリティに適した構成
 
