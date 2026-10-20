@@ -14,7 +14,7 @@
 </p>
 
 ## Overview
-　猫(Jonesy)がテーマのスクリーンセーバー。  
+　猫(Jonesy) がテーマのスクリーンセーバー。  
 　Windows標準のコントロールパネルから起動できます。
 
 ## Purpose
@@ -24,7 +24,7 @@
 * 複数モニターへのランダム表示  
 * 画像が複数モニター間を跨いでしまう現象の防止  
 * 画像追加/削除  
-  固有DIR ( <img src="./assets/env/M_folder.png" height="14"> ./scr_images\)へ表示したい画像をコピーする事で表示する画像を変更できます。
+  固有DIR ( <img src="./assets/env/M_folder.png" height="14"> : . / scr_images )へ表示したい画像をコピーする事で表示する画像を変更できます。
 
 ## Usage
 1. 規定DIRへコピー　<img src="./assets/env/M_folder.png" height="14"> C:\windows\system32  
@@ -73,7 +73,8 @@ pyinstaller `
 
 </details>  
 
-　　**.exe** 出力 <img src="./assets/env/M_folder.png" height="14"> :　. / dist /  
+　　**.exe** 出力 <img src="./assets/env/M_folder.png" height="14"> :　. / dist  
+
 　　<img src="./assets/env/M_caution.png" height="14"> ファイルリネーム  
 　　　単体起動形式(.exe)で作成されます。  
 　　　スクリーンセーバー(.scr)へリネームしてください (例：joss.exe <img src="./assets/env/M_allow-R.png" height="14"> JonesyScreenSaver.scr)。  
