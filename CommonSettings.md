@@ -14,26 +14,33 @@
 ### Symbol Legend  
 > [<img src="./assets/env/M_legend.png" width="480">](./assets/env/M_legend.png)  
 
-## 仮想環境構築
-　Pythonによるアプリケーションの開発は仮想環境(virtualenv)以下で実施する事を推奨します。  
-　<img src="./assets/env/M_SHELL_BASH-PWSH.png" height="12">  
-
 > [!caution]
 > Trademarks: Company names, product names, and logos used in documents related to this project are trademarks or registered trademarks of their respective owners. They are cited solely for the purpose of describing the technologies used.
 > 
 > Ubuntu / Debian系のDistributionではパッケージ管理システム(**pip**)がインストールパッケージに含まれていない場合があります。  
 > 予め`python3 --version`コマンドでpipのインストール状態を確認し、必要ならインストールして下さい。  
 > pip Install command : `sudo apt install python3-pip` <img src="./assets/env/M_return.png" height="12">  
+> <br>
+> <img src="./assets/env/M_caution.png" height="14"> Terminalによって構文(記号)が異なります。
+> |Item|<img src="./assets/env/M_SHELL_BASH.png" height="12">|<img src="./assets/env/M_SHELL_PWSH.png" height="12">|remarks|  
+> |:--|:--|:--|:--|  
+> |DIR / folder hierarchy|/|<img src="./assets/env/M_backslash.png">||
+> |Command line break|<img src="./assets/env/M_backslash.png">|`||  
+> |Home DIR|~|$HOME||  
+> |Root DIR|/|C : <img src="./assets/env/M_backslash2.png" align="bottom">|" **/** " はPowerShellでも使用可。<br>但し`.exe`に渡す文字列(Path等)には不可|  
 
-仮想環境は下記コマンドで実装し、有効化します。  
+## 仮想環境構築
+　Pythonによるアプリケーションの開発は仮想環境(Virtual Environment)以下で実施する事を推奨します。  
+　仮想環境は下記コマンドで構築し、有効化/無効化します。  
 
 |Order|Item|<img src="./assets/env/M_SHELL_BASH.png" height="12">|<img src="./assets/env/M_SHELL_PWSH.png" height="12">|remarks|  
 |:--|:--|:--|:--|:--|  
 |1|コマンド抑止の<br>バイパス設定|Set-ExecutionPolicy -Scope Process<br> -ExecutionPolicy Bypass <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|おまじない？|  
-|2|仮想環境(VE)実装|py -m venv "VE名" <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
-|3|仮想環境有効化|source VE-DIR/bin/Activate <img src="./assets/env/M_return.png" height="12">|.\VE-DIR\Script\Activate.ps1 <img src="./assets/env/M_return.png" height="12">||
-|4|パッケージ管理アップデート|pip install -U pip <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
-|5|拡張機能インストール|pip install 拡張機能 <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|␣ 区切りで<br>複数指定可能|  
+|2|仮想環境(VE)実装|python -m venv "VE名" <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
+|3|仮想環境有効化|source ./VE-DIR/bin/Activate <img src="./assets/env/M_return.png" height="12">|.\VE-DIR\Script\Activate.ps1 <img src="./assets/env/M_return.png" height="12">||
+|4|仮想環境無効化| deactivate <img src="./assets/env/M_return.png" height="12"> | <img src="./assets/env/M_allow-L.png" height="14"> |
+|5|パッケージ管理アップデート|pip install -U pip <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">||  
+|6|拡張機能インストール|pip install 拡張機能 <img src="./assets/env/M_return.png" height="12">|<img src="./assets/env/M_allow-L.png" height="14">|␣ 区切りで<br>拡張機能を複数指定可能|  
 
 ## 単体起動アプリケーション(.exe)作成
 ### アプリケーション作成ツール  
@@ -81,11 +88,9 @@ pyinstaller \
 </details>  
 <br>
 
-> [!caution]
+> [!caution]  
 > "APP " : アプリケーション名 (各名称に置き換えて下さい )  
-> コマンド接続子が <img src="./assets/env/M_SHELL_PWSH.png" height="12"> と <img src="./assets/env/M_SHELL_BASH.png" height="12"> で異なります。  
-> 　<img src="./assets/env/M_SHELL_PWSH.png" height="12"> : " <img src="./assets/cmd/M_WD_connective-pwsh.png" height="12"> " 、<img src="./assets/env/M_SHELL_BASH.png" height="12"> : " <img src="./assets/cmd/M_WD_connective-bash.png" height="12"> "  
-> 　"--add-data" 中の文字、<img src="./assets/env/M_SHELL_PWSH.png" height="12"> : " , "、<img src="./assets/env/M_SHELL_BASH.png" height="12"> : " . "  
+> 　"--add-data" 中の文字が異なります、<img src="./assets/env/M_SHELL_PWSH.png" height="12"> : " , "、<img src="./assets/env/M_SHELL_BASH.png" height="12"> : " . "  
 
 
 ### アイコンファイル(`.ico`) 作成
